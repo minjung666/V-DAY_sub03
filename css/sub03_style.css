@@ -32,7 +32,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 
 /*banner*/
 
-#banner{width: 100%; height: 510px; background: gray;}
+#banner{width: 100%; height: 510px; background: url(../images/banner.jpg) no-repeat center top; position: relative;}
+#banner>span{width: 110.7px; height: 40px; color: #f0e4cf; font-size: 45px; position: absolute; top: 50%; left: 50%;  margin: -20px 0 0 -55.35px; font-family: 'GowunBatang-Regular'; text-shadow: 10px 10px 10px #583C31;}
 
 
 /*contents*/
@@ -62,6 +63,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 
 
 
+/*footer s*/
+
 #footer{width: 100%; height: 330px; background-color: #583C31;}
 .footer_inner{width: 1320px; height: 100%; margin: 0 auto;}
 
@@ -80,6 +83,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 .list2 li:nth-child(2) a{margin-top: 1px;}
 .list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
 
+.list2 li:hover img{opacity: 0.5;}
+
 
 .list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
 
@@ -89,7 +94,6 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 .list4 li:nth-child(2){font-size: 27px; text-decoration: underline; margin-top: 5px;}
 .list4 li:nth-child(3){font-size: 14px; margin-top: 10px;}
 .list4 li:nth-child(4){font-size: 14px;}
-
 
 
 
